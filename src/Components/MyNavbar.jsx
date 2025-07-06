@@ -2,6 +2,7 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import DarkModeToggle from "./DarkModeToggle";
 import { theme } from "./Theme";
 import { useDarkMode } from "../Context/DarkModeContext";
+import logo from "../assets/kanban.png"
 
 function MyNavbar() {
     const { darkMode } = useDarkMode();
@@ -24,7 +25,7 @@ function MyNavbar() {
                 {/* Changed to fluid for better spacing */}
                 <Navbar.Brand href="#home" style={{ color: colors.text }}>
                     <img
-                        src="../assets/kanban.png"
+                        src={logo}
                         width="30"
                         height="30"
                         className="d-inline-block align-top"
