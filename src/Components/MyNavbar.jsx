@@ -31,7 +31,7 @@ function MyNavbar() {
                         className="d-inline-block align-top"
                         alt="Kanban Logo"
                     />{" "}
-                    My Kanban
+                    TaskMate | Kanban Board
                 </Navbar.Brand>
                 {/* Right-aligned controls */}
                 <div className="d-flex align-items-center">
