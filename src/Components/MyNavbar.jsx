@@ -24,7 +24,7 @@ function MyNavbar() {
                 {/* Changed to fluid for better spacing */}
                 <Navbar.Brand href="#home" style={{ color: colors.text }}>
                     <img
-                        src="/src/assets/kanban.png"
+                        src="../assets/kanban.png"
                         width="30"
                         height="30"
                         className="d-inline-block align-top"
